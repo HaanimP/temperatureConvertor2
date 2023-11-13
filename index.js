@@ -3,8 +3,8 @@ document.getElementById('clear').onclick = clearForm;
 
 function tempConvert() {
     
-    var fahrenheit = document.getElementById("fahrenheit").value;
-    var celsius = document.getElementById("celsius").value;
+    let fahrenheit = document.getElementById("fahrenheit").value;
+    let celsius = document.getElementById("celsius").value;
   
   if (fahrenheit != '') {
         celsius = (parseFloat(fahrenheit) - 32) / 1.8;
